@@ -9,7 +9,18 @@
   <body>
     <div class="container">
       <load src="./partials/back-link.html" />
-      <load src="./partials/timer.html" />
+      <div class="container">
+        <div class="timer">
+          <p class="clockface js-clockface"></p>
+
+          <div class="actions">
+            <button class="timer-btn" data-action-start>Start</button>
+            <button class="timer-btn" data-action-stop>Stop</button>
+          </div>
+
+          <ul class="clock-circles js-clock-circles"></ul>
+        </div>
+      </div>
     </div>
 
     <script type="module" src="./js/06-timer.js"></script>
